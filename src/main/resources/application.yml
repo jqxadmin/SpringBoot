@@ -1,0 +1,24 @@
+server:
+  port: 8090
+
+spring:
+  profiles:
+    active: dev
+--- 
+#person:
+#  desc: https://www.bilibili.com/video/av20965295/?p=11
+#  dog: 
+#    type: 哈士奇
+#    name: 旺财
+---
+server: 
+   port: 8081
+   
+spring:
+  profiles: dev
+---
+server: 
+   port: 8082
+   
+spring:
+  profiles: prod
